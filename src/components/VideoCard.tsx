@@ -2,6 +2,7 @@ import { useRouter } from "next/router"
 import type { Video } from "../videos"
 import { Line } from "./Line"
 
+
 export const VideoCard = ({video}: {video: Video}) => {
     const router = useRouter();
     return <div className="cursor-pointer" onClick={() => {
